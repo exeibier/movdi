@@ -1,14 +1,59 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Layout from '../components/Layout'
 
-export default function Home() {
-  return (
-    <div>
-      <Layout>
-        <div className='bg-danger' >
-          <h2>2212</h2>
-        </div>
-      </Layout>
-    </div>
-  )
+//Import modules
+import Menu from '../components/Menu/Menu'
+import Hamburguer from '../components/Hamburguer/Hamburguer';
+import Drop from '../components/Drop/Drop';
+import Header from '../components/Header/Header';
+import About from '../components/About/About';
+import Categories from '../components/Categories/Categories';
+import Clients from '../components/Clients/Clients';
+import Footer from '../components/Footer/Footer';
+
+class Home extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      sideButtonOpener: false,
+    }
+  }  
+
+  hamburguerToggleHandler = () =>{
+    this.setState((prevState) =>{
+      return{ sideButtonOpener: !prevState.sideButtonOpener}
+    });
+  };
+
+  backDropClickHandler = () => {
+    this.setState({sideButtonOpener: false})
+  };
+  render(){
+    let sideButton, backdrop;
+
+    if(this.state.sideButtonOpener){
+      sideButton = <Hamburguer/>
+      backdrop = <Drop click={this.backDropClickHandler}/>
+    }
+    return (
+      <div>
+        <Layout>
+        <Menu 
+        hamburguerClickHandler={this.hamburguerToggleHandler}
+        className={this.state.className}
+        />
+        {sideButton}
+        {backdrop }
+        <Header/>
+        <About/>
+        <Categories/>
+        <Clients/>
+        <Footer/>
+        </Layout>
+      </div>
+    )
+  } 
 }
+
+export default Home;
+

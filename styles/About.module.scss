@@ -1,0 +1,35 @@
+.about_section{
+    .about_img{
+        img{
+            width: 80%;
+        }
+    }
+    .about_text {
+        h2{
+            font-weight: bold;
+            font-size: 50px;
+        }
+        p{
+            font-size:20px;
+            color:#727376;
+        }
+        img{
+            width: 50px;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .about_section{
+        .about_img{
+            margin-bottom: 40px;
+        }
+        .about_text {
+            h2{
+                font-weight: bold;
+                font-size: 30px;
+            }
+        }
+    }
+}

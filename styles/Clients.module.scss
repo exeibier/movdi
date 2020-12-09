@@ -1,0 +1,21 @@
+.client_section{
+    h2{
+        font-size: 60px;
+    }
+    .clients_image{
+        padding: 30px;
+        text-align: center;
+        img{
+            max-width: 120px;
+        }
+    }
+    
+}
+
+@media (max-width: 600px){
+    .client_section{
+        h2{
+            font-size: 20px;
+        }
+    }
+}

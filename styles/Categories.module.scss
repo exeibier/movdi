@@ -1,0 +1,108 @@
+.categories_section{
+    background: #000000;
+
+    h2{
+        color: #ffffff;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .categories_wrap{
+        .img_background{
+            position: relative;
+            text-align: center;
+          img{
+            width: 179px;
+          }
+          h2{
+              position: absolute;
+              font-size: 35px;
+              top: 25%;
+              right:-5%;
+          }
+        }
+        .img_background_2{
+            position: relative;
+            text-align: center;
+          img{
+            width: 179px;
+          }
+          h2{
+              position: absolute;
+              font-size: 35px;
+              top: 40%;
+              right: 15%;
+          }
+        }
+        .img_background_3{
+            position: relative;
+            text-align: center;
+          img{
+            width: 179px;
+          }
+          h2{
+              position: absolute;
+              font-size: 35px;
+              top: 40%;
+              right: 25%;
+          }
+        }
+    }
+}
+
+@media (max-width: 600px){
+    .categories_section{
+        background: #000000;
+    
+        h2{
+            color: #ffffff;
+            text-align: center;
+            font-size: 30px;
+        }
+    
+        .categories_wrap{
+            .img_background{
+                position: relative;
+                text-align: center;
+                padding-bottom: 30px;
+              img{
+                width: 179px;
+              }
+              h2{
+                  position: absolute;
+                  font-size: 25px;
+                  top: 35%;
+                  right:9%;
+              }
+            }
+            .img_background_2{
+                position: relative;
+                text-align: center;
+                padding-bottom: 30px;
+
+              img{
+                width: 179px;
+              }
+              h2{
+                  position: absolute;
+                  font-size: 25px;
+                  top: 35%;
+                  right: 34%;
+              }
+            }
+            .img_background_3{
+                position: relative;
+                text-align: center;
+              img{
+                width: 179px;
+              }
+              h2{
+                  position: absolute;
+                  font-size: 25px;
+                  top: 40%;
+                  right: 38%;
+              }
+            }
+        }
+    }
+}
