@@ -11,6 +11,7 @@ const Layout = ({children}) => {
                 <meta name='description' content='MOVDI' />
                 <meta property='og:title' content='MOVDI' />
                 <meta property='og:site_name' content='MOVDI' />
+                <meta property='og:description' content='WE ARE INFLUENCERS, WE ARE MOVD' />
                 <link rel="preconnect" href="https://fonts.gstatic.com"/>
                 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet"></link>
                 <link rel="shortcut icon" sizes="57x57" href="/apple-icon-57x57.png"/>
