@@ -76,7 +76,7 @@ const Footer = () => {
 								<h2 className='text-uppercase'>Contacto</h2>
 								<span className='py-2'></span>
 								<ul>
-									<li><a href="mailito:info@movdi.mx">Email. info@movdi.mx</a></li>
+									<li><a href="mailito:hola@movdi.mx">Email. hola@movdi.mx</a></li>
 									<li><a href="tel:5525755070">T. 55 2575 5070</a></li>
 								</ul>					
 							</div>
