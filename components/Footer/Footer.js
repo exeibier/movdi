@@ -19,10 +19,50 @@ const Footer = () => {
 								<h2 className='text-uppercase'>Menú</h2>
 								<span className='py-2'></span>
 								<ul>
-									<li><a href="#">Home</a></li>
-									<li><a href="#">Acerca</a></li>
-									<li><a href="#">Categorías</a></li>
-									<li><a href="#">Clientes</a></li>
+									<li>
+										<Link
+										activeClass={styles.active}
+										to='home'
+										spy
+										smooth
+										offset={-70}
+										duration={500}
+										>Home
+										</Link>
+									</li>
+									<li>
+										<Link
+										activeClass={styles.active}
+										to='about'
+										spy
+										smooth
+										offset={-70}
+										duration={500}
+										>Acerca
+										</Link>
+									</li>
+									<li>
+										<Link
+										activeClass={styles.active}
+										to='categories'
+										spy
+										smooth
+										offset={-70}
+										duration={500}
+										>Categorias
+										</Link>	
+									</li>
+									<li>
+										<Link
+										activeClass={styles.active}
+										to='clients'
+										spy
+										smooth
+										offset={-70}
+										duration={500}
+										>Clientes
+										</Link>
+									</li>
 								</ul>		
 							</div>
 							<div className="col-lg-2">
@@ -45,8 +85,8 @@ const Footer = () => {
 								<span className='py-2'></span>
 								<ul>
 									<li><a href="#">Facebook</a></li>
-									<li><a href="#">Instagram</a></li>
-									<li><a href="#">Tik Tok</a></li>
+									<li><a href="https://www.instagram.com/movdimx/" target='blank'>Instagram</a></li>
+									<li><a href="https://vm.tiktok.com/ZSsC16m5/" target='blank'>Tik Tok</a></li>
 									<li><a href="#">Linkedin</a></li>
 								</ul>
 							</div>

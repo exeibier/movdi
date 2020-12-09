@@ -28,6 +28,11 @@
             list-style: none;
             padding: 5px 0;
             li{
+                cursor: pointer;
+                color: white;
+                .active {
+                    color:white;
+                }
                 a{
                     color: white;
                 }
