@@ -6,38 +6,51 @@ import { Link } from 'react-scroll'
 const Hamburguer = props => (
   <nav className={styles.hamburguer}>
     <ul>
+     
       <Link
         activeClass='active'
-        to='/#about'
-        spy
-        smooth
-        offset={-70}
-        duration={500}
-      ><li><a href='/'>Nosotros</a></li>
-      </Link>
-      <Link
-        activeClass='active'
-        to='services'
+        to='home'
         spy
         smooth
         offset={-70}
         duration={500}
       >
-        <li><a href='/'>¿Qué hacemos?</a></li>
-      </Link>
-      <Link
-        activeClass='active'
-        to='projects'
-        spy
-        smooth
-        offset={-70}
-        duration={500}
-      >
-        <li><a href='/'>Proyectos</a></li>
+        <li><a href='/'>HOME</a></li>
 
       </Link>
-      <li><a href='/contacto'>Contacto</a></li>
-      <li><a href='/blog'>Blog</a></li>
+      <Link
+        activeClass='active'
+        to='about'
+        spy
+        smooth
+        offset={-70}
+        duration={500}
+      >
+        <li><a href='/'>ACERCA</a></li>
+
+      </Link>
+      <Link
+        activeClass='active'
+        to='categories'
+        spy
+        smooth
+        offset={-70}
+        duration={500}
+      >
+        <li><a href='/'>CATEGORIAS</a></li>
+
+      </Link>
+      <Link
+        activeClass='active'
+        to='clients'
+        spy
+        smooth
+        offset={-70}
+        duration={500}
+      >
+        <li><a href='/'>CLIENTES</a></li>
+
+      </Link>
     </ul>
   </nav>
 )
