@@ -84,10 +84,10 @@ const Footer = () => {
 								<h2 className='text-uppercase'>Siguenos</h2>
 								<span className='py-2'></span>
 								<ul>
-									<li><a href="#">Facebook</a></li>
+									{/* <li><a href="#">Facebook</a></li> */}
 									<li><a href="https://www.instagram.com/movdimx/" target='blank'>Instagram</a></li>
 									<li><a href="https://vm.tiktok.com/ZSsC16m5/" target='blank'>Tik Tok</a></li>
-									<li><a href="#">Linkedin</a></li>
+									<li><a href="https://www.linkedin.com/company/movdi" target='blank'>Linkedin</a></li>
 								</ul>
 							</div>
 						</div>
