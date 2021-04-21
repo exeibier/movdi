@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import styles from '../../styles/Menu.module.scss'
 import { Link } from 'react-scroll'
 import HamburguerButton from '../Hamburguer/HamburguerButton'
@@ -7,7 +7,6 @@ function Menu(props){
 const [menuNav, setMenuNav] = useState(true)
 
 const changeBackground = () => {
-  console.log(window.scrollY)
   if(window.scrollY >= 90){
     setMenuNav(true)
   } else {
@@ -16,10 +15,12 @@ const changeBackground = () => {
 }
 
 React.useEffect = (() => {
-  changeBackground();
+  changeBackground()
+  window.addEventListener('scroll', changeBackground)
+
+  return () => window.removeEventListener('scroll', changeBackground)
 }, []);
 
-// window.addEventListener('scroll', changeBackground)
 
   return(
     <>
