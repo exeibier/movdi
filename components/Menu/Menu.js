@@ -14,7 +14,7 @@ const changeBackground = () => {
   }
 }
 
-React.useEffect = (() => {
+const useEffect = (() => {
   changeBackground()
   window.addEventListener('scroll', changeBackground)
 

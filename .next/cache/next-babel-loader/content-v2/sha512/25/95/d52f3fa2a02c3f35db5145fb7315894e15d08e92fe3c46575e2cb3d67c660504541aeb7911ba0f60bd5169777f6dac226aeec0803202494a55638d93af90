@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport styles from '../../styles/Drop.module.scss';\n\nvar Drop = function Drop(props) {\n  return __jsx(\"div\", {\n    className: styles.drop,\n    onClick: props.click\n  });\n};\n\nexport default Drop;","map":null,"metadata":{},"sourceType":"module"}

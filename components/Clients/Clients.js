@@ -7,7 +7,7 @@ const Clients = () => {
 	return (
 		<section className={`container ${styles.client_section} py-5`} id='clients'>
 			<h2 className='text-uppercase text-center pb-5'>Ellos han confiado en nosotros</h2>
-			<Fade right cascade>
+			<Fade top cascade>
 				<div className="row">
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
 						<img src="assets/PNG/p-1.png" alt="heineken"/>
@@ -29,7 +29,7 @@ const Clients = () => {
 					</div>
 				</div>
 			</Fade>
-			<Fade right cascade>
+			<Fade top cascade>
 				<div className="row">
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
 						<img src="assets/PNG/p-7.png" alt="heineken"/>
