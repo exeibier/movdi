@@ -9,6 +9,7 @@ import Header from '../components/Header/Header';
 import About from '../components/About/About';
 import Categories from '../components/Categories/Categories';
 import Clients from '../components/Clients/Clients';
+import Work from '../components/Work/Work';
 import Footer from '../components/Footer/Footer';
 
 class Home extends Component {
@@ -48,6 +49,7 @@ class Home extends Component {
         <About/>
         <Categories/>
         <Clients/>
+        <Work/>
         <Footer/>
         </Layout>
       </div>

@@ -1,0 +1,34 @@
+.work_section{
+    background-color: #000000;
+    h2{
+        font-size: 40px;
+        color: #ff4712;
+    }
+    p{
+        font-size:25px;
+        color: #d8d8d8;
+
+        b {
+            color: #ffff;
+        }
+    }
+
+    a{
+        font-family: 'Open Sans', sans-serif;
+        color: #d8d8d8;
+    }
+
+    .bar{
+        border-right: 1px solid #d8d8d8;
+    }
+
+    
+}
+
+@media (max-width: 600px){
+    .client_section{
+        h2{
+            font-size: 20px;
+        }
+    }
+}

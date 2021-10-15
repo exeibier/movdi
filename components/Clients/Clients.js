@@ -10,50 +10,73 @@ const Clients = () => {
 			<Fade top cascade>
 				<div className="row">
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-1.png" alt="heineken"/>
+						<img src="assets/SVG/p-1.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-2.png" alt="heineken"/>
+						<img src="assets/SVG/p-2.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-3.png" alt="heineken"/>
+						<img src="assets/SVG/p-3.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-4.png" alt="heineken"/>
+						<img src="assets/SVG/p-4.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-5.png" alt="heineken"/>
+						<img src="assets/SVG/p-5.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-6.png" alt="heineken"/>
+						<img src="assets/SVG/p-6.svg" alt="heineken"/>
 					</div>
 				</div>
 			</Fade>
 			<Fade top cascade>
 				<div className="row">
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-7.png" alt="heineken"/>
+						<img src="assets/SVG/p-7.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-8.png" alt="heineken"/>
+						<img src="assets/SVG/p-8.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-9.png" alt="heineken"/>
+						<img src="assets/SVG/p-9.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-10.png" alt="heineken"/>
+						<img src="assets/SVG/p-10.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-11.png" alt="heineken"/>
+						<img src="assets/SVG/p-11.svg" alt="heineken"/>
 					</div>
 					<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-						<img src="assets/PNG/p-12.png" alt="heineken"/>
+						<img src="assets/SVG/p-12.svg" alt="heineken"/>
 					</div>
 				</div>
 			</Fade>
 			<div className="row justify-content-center">
 				<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
-					<img src="assets/PNG/p-13.png" alt="heineken"/>
+					<img src="assets/SVG/p-13.svg" alt="heineken"/>
+				</div>
+				<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
+					<img src="assets/SVG/p-14.svg" alt="heineken"/>
+				</div>
+				<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
+					<img src="assets/SVG/p-15.svg" alt="heineken"/>
+				</div>
+				<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
+					<img src="assets/SVG/p-16.svg" alt="heineken"/>
+				</div>
+				<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
+					<img src="assets/SVG/p-17.svg" alt="heineken"/>
+				</div>
+				<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
+					<img src="assets/SVG/p-18.svg" alt="heineken"/>
+				</div>
+			</div>
+			<div className="row">
+				<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
+					<img src="assets/SVG/p-19.svg" alt="heineken"/>
+				</div>
+				<div className={`col-lg-2 col-6 ${styles.clients_image}`}>
+					<img src="assets/SVG/p-20.svg" alt="heineken"/>
 				</div>
 			</div>
 		</section>

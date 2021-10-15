@@ -17,7 +17,7 @@ const Header = () => {
               <div className={styles.stars_img}>
                 <img src='/assets/SVG/stars.svg'/>
               </div>
-              <h2 className='text-uppercase'>We are<br/>influencers,<br/> we are movdi</h2>
+              <h2 className='text-uppercase'>Welcome<br/>to movdi<br/> agency</h2>
             </div>
           </Parallax>
           <Jump>
@@ -29,9 +29,9 @@ const Header = () => {
       </div>
     </div>
     <div className={`mt-5 ${styles.header_about}`}>
-      <div className='text-center'>
+      {/* <div className='text-center'>
         <h3>Influencers / Management / Marketing Metrics</h3>
-      </div>
+      </div> */}
     </div>
   </section>
     )

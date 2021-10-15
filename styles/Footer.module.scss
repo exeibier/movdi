@@ -3,19 +3,19 @@
         font-size: 15px;
     }
     .footer_background{
-        background-color: #000000;
+        background-color: #d8d8d8;
 
         img{
             width: 160px;
         }
         h2{
-            color: white;
+            color: #212121;
             font-size: 15px;
         }
         span{
             display:block;
             width:30px; 
-            border-top: 1px solid #ffffff;   
+            border-top: 1px solid #ffff;   
          }
         .footer_stars{
             img{
@@ -29,12 +29,12 @@
             padding: 5px 0;
             li{
                 cursor: pointer;
-                color: white;
+                color: #212121;
                 .active {
-                    color:white;
+                    color:#212121;
                 }
                 a{
-                    color: white;
+                    color: #212121;
                 }
             }
         }

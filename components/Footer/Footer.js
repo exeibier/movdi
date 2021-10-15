@@ -13,7 +13,7 @@ const Footer = () => {
 					<div className="container py-5">
 						<div className="row justify-content-center">
 							<div className="col-lg-2 pb-4">
-								<img src="assets/SVG/logo-white.svg" alt="movdi blanco"/>
+								<img src="assets/SVG/logo.svg" alt="movdi blanco"/>
 							</div>
 							<div className="col-lg-2">
 								<h2 className='text-uppercase'>Menú</h2>
@@ -27,7 +27,7 @@ const Footer = () => {
 										smooth
 										offset={-70}
 										duration={500}
-										>Home
+										>Menú
 										</Link>
 									</li>
 									<li>
