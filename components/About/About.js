@@ -17,17 +17,19 @@ const About = () => {
           <h2 className="text-uppercase">
             About us <img src="assets/SVG/star.svg" alt="star" />
           </h2>
-          <p>
-            MÁS QUE UNA AGENCIA, <b>SOMOS UN MOVIMIENTO DIGITAL</b> ROMPEMOS
-            ESQUEMAS, <b>MARCAMOS TENDENCIA</b>
-          </p>
-          <p>
-            NUESTRA MISIÓN ES CONVERTIR TU MARCA EN UN STATEMENT CON UNA
-            COMUNIDAD <b>ACTIVA Y VIBRANTE.</b>
-          </p>
+          <div className={`${styles.about_p}`}>
+            <p>
+              MÁS QUE UNA AGENCIA, <b>SOMOS UN MOVIMIENTO DIGITAL</b> ROMPEMOS
+              ESQUEMAS, <b>MARCAMOS TENDENCIA</b>
+            </p>
+            <p>
+              NUESTRA MISIÓN ES CONVERTIR TU MARCA EN UN STATEMENT CON UNA
+              COMUNIDAD <b>ACTIVA Y VIBRANTE.</b>
+            </p>
+          </div>
         </div>
       </div>
-      <div className={`row my-5 ${styles.stats}`} >
+      <div className={`row my-5 ${styles.stats}`}>
         <div className="col-12 text-center my-5">
           <h2>
             WE ARE THE AGENCY
@@ -36,15 +38,15 @@ const About = () => {
           </h2>
         </div>
         <div className="col-12 col-lg-4 text-center">
-          <img className='my-5' src="assets/SVG/star.svg" alt="star" />
+          <img className="my-5" src="assets/SVG/star.svg" alt="star" />
           <h2 className={`${styles.points}`}>5 AÑOS DE EXPERIENCIA</h2>
         </div>
         <div className="col-12 col-lg-4 text-center">
-          <img className='my-5'  src="assets/SVG/star.svg" alt="star" />
+          <img className="my-5" src="assets/SVG/star.svg" alt="star" />
           <h2 className={`${styles.points}`}>100 PROYECTOS DIGITALES</h2>
         </div>
         <div className="col-12 col-lg-4 text-center">
-          <img className='my-5'  src="assets/SVG/star.svg" alt="star" />
+          <img className="my-5" src="assets/SVG/star.svg" alt="star" />
           <h2 className={`${styles.points}`}>5,000 INFLUENCERS EN EL CREW</h2>
         </div>
       </div>

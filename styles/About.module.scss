@@ -1,48 +1,56 @@
-.about_section{
-    .about_img{
-        img{
-            width: 80%;
-        }
+.about_section {
+  .about_img {
+    img {
+      width: 70%;
     }
-    .about_text {
-        h2{
-            font-weight: bold;
-            font-size: 50px;
-        }
-        p{
-            font-size:20px;
-            color:#212121;
-        }
-        img{
-            width: 50px;
-            padding-bottom: 15px;
-        }
+  }
+  .about_text {
+    h2 {
+      font-weight: bold;
+      font-size: 50px;
+    }
+    .about_p {
+        margin-top: 50px;
+      p {
+        font-size: 20px;
+        color: #212121;
+      }
     }
 
-    .stats{
-        img{
-            width: 10%;
-        }
-        h2{
-            color: #ff4712;
-            &.points{
-                color:#212121;
-                font-size: 20px;
-            }
-        }
+    img {
+      width: 50px;
+      padding-bottom: 15px;
     }
+  }
+
+  .stats {
+    img {
+      width: 10%;
+    }
+    h2 {
+      color: #ff4712;
+      &.points {
+        color: #212121;
+        font-size: 20px;
+      }
+    }
+  }
 }
 
-@media (max-width:768px){
-    .about_section{
-        .about_img{
-            margin-bottom: 40px;
-        }
-        .about_text {
-            h2{
-                font-weight: bold;
-                font-size: 30px;
-            }
-        }
+@media (max-width: 768px) {
+  .about_section {
+    .about_img {
+      margin-bottom: 40px;
     }
+    .about_text {
+      h2 {
+        font-weight: bold;
+        font-size: 30px;
+        .about_p {
+            margin-top: 30px;
+    
+        }
+      }
+    }
+  }
 }
