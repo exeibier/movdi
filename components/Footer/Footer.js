@@ -77,7 +77,7 @@ const Footer = () => {
 								<span className='py-2'></span>
 								<ul>
 									<li><a href="mailito:hola@movdi.mx">Email. hola@movdi.mx</a></li>
-									<li><a href="tel:5525755070">T. 55 2575 5070</a></li>
+									<a href="tel:+525548418158">t. 55 484 18158</a>
 								</ul>					
 							</div>
 							<div className="col-lg-2">
